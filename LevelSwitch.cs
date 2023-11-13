@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class reloadScene : MonoBehaviour
+public class LevelSwitch : MonoBehaviour
 {
     private Scene currentScene;
 
