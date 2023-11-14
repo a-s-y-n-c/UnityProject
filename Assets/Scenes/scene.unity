@@ -237,6 +237,7 @@ GameObject:
   - component: {fileID: 133404994}
   - component: {fileID: 133404993}
   - component: {fileID: 133404992}
+  - component: {fileID: 133404997}
   m_Layer: 0
   m_Name: Circle
   m_TagString: New Level
@@ -256,7 +257,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73a2a16702481754e9c860c3ec21951d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 120
+  moveSpeed: 400
   jumpSpeed: 8
 --- !u!50 &133404993
 Rigidbody2D:
@@ -362,6 +363,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &133404997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 133404991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0041a44ae3d7e943aeeb6509ef3f1c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tagName: New Level
+  currentScene: scene1
 --- !u!1 &184459694
 GameObject:
   m_ObjectHideFlags: 0
@@ -372,7 +387,6 @@ GameObject:
   m_Component:
   - component: {fileID: 184459696}
   - component: {fileID: 184459695}
-  - component: {fileID: 184459697}
   - component: {fileID: 184459698}
   m_Layer: 0
   m_Name: Triangle
@@ -448,20 +462,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &184459697
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 184459694}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b0041a44ae3d7e943aeeb6509ef3f1c0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tagName: New Level
-  currentScene: scene1
 --- !u!60 &184459698
 PolygonCollider2D:
   m_ObjectHideFlags: 0
