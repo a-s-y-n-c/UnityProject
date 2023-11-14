@@ -4,17 +4,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
 public class LevelSwitch : MonoBehaviour
 {
-    private Scene currentScene;
+    public string tagName;
+    public string currentScene;
 
-    void Start()
+    void OnCollisionEnter2D(Collision2D other)
     {
-        currentScene = SceneManager.GetActiveScene();
-    }
-
-    private void OnCollisionEnter2D(Collision2D other)
-    {
-        SceneManager.LoadScene(currentScene.name);
+        if (other.gameObject.CompareTag(tagName))
+        {
+            SceneManager.LoadScene(currentScene);
+        }
     }
 }
