@@ -2,11 +2,10 @@ using UnityEngine;
 
 public class playerController : MonoBehaviour
 {
-    public GameObject character;
     public float moveSpeed = 3.25f;
     public float jumpSpeed;
-    public Rigidbody2D rb;
- 
+    
+    private Rigidbody2D rb;
     private Vector2 playerInput;
     private bool shouldJump;
     private bool canJump;
@@ -14,7 +13,7 @@ public class playerController : MonoBehaviour
  
     private void Start()
     {
-        rb = character.GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>();
     }
  
     // get input values each frame
@@ -35,13 +34,13 @@ public class playerController : MonoBehaviour
     private void FixedUpdate()
     {
         // move
-        if(playerInput != Vector2.zero) {
-            rb.AddForce(playerInput * (moveSpeed * Time.fixedDeltaTime), ForceMode2D.Impulse);
-        }
+        rb.AddForce(playerInput * (moveSpeed * Time.fixedDeltaTime));
      
         // jump
-        if(shouldJump) {
-            rb.AddForce(Vector2.up * jumpSpeed, ForceMode2D.Impulse);
+        if(shouldJump)
+        {
+            Vector2 jumpDir = (-Physics2D.gravity).normalized;
+            rb.AddForce(jumpDir * jumpSpeed, ForceMode2D.Impulse);
             shouldJump = false;
         }
     }
@@ -50,11 +49,11 @@ public class playerController : MonoBehaviour
     {
         // allow jumping again
         canJump = true;
-        character.transform.tag = "onFloor";
+        transform.tag = "onFloor";
     }
  
     private void OnCollisionExit2D(Collision2D col)
     {
-        character.transform.tag = "Jumping";
+        transform.tag = "Jumping";
     }
 }
