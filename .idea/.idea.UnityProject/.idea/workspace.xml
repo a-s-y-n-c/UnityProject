@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b46ef54e-c65a-4821-b20d-7a53548a7ac1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityProject/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/scripts/PlayerMovementOther.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/PlayerMovementOther.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,6 +103,7 @@
       <workItem from="1700153931898" duration="57000" />
       <workItem from="1700154510104" duration="1000" />
       <workItem from="1700154517851" duration="32000" />
+      <workItem from="1700154631793" duration="25000" />
     </task>
     <servers />
   </component>
