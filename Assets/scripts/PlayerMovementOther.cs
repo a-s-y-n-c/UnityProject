@@ -4,11 +4,11 @@ public class PlayerMovementOther : MonoBehaviour
 {
     private float horizontal;
     private float speed = 3f;
-    private float jumpingPower = 16f;
+    private float jumpingPower = 8f;
     private bool isFacingRight = true;
 
     private bool isWallSliding;
-    private float wallSlidingSpeed = 2f;
+    private float wallSlidingSpeed = 6f;
 
     private bool isWallJumping;
     private float wallJumpingDirection;
