@@ -3,18 +3,18 @@ using UnityEngine;
 public class PlayerMovementOther : MonoBehaviour
 {
     private float horizontal;
-    private float speed = 8f;
-    private float jumpingPower = 16f;
+    private float speed = 3f;
+    private float jumpingPower = 8f;
     private bool isFacingRight = true;
 
     private bool isWallSliding;
-    private float wallSlidingSpeed = 2f;
+    private float wallSlidingSpeed = 0.8f;
 
     private bool isWallJumping;
     private float wallJumpingDirection;
     private float wallJumpingTime = 0.2f;
     private float wallJumpingCounter;
-    private float wallJumpingDuration = 0.4f;
+    private float wallJumpingDuration = 0.5f;
     private Vector2 wallJumpingPower = new Vector2(4f, 8f);
 
     [SerializeField] private Rigidbody2D rb;

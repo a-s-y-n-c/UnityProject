@@ -7,6 +7,7 @@ TagManager:
   - New Level
   - onFloor
   - Jumping
+  - Wall
   layers:
   - Default
   - TransparentFX
