@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b46ef54e-c65a-4821-b20d-7a53548a7ac1" name="Changes" comment="" />
+    <list default="true" id="b46ef54e-c65a-4821-b20d-7a53548a7ac1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/whoosh2_Sound.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/PlayerMovementOther.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/PlayerMovementOther.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,6 +110,13 @@
       <workItem from="1700155081145" duration="221000" />
       <workItem from="1700155347525" duration="11000" />
       <workItem from="1700155631619" duration="5000" />
+      <workItem from="1701102028027" duration="14000" />
+      <workItem from="1701102116008" duration="21000" />
+      <workItem from="1701102176743" duration="8000" />
+      <workItem from="1701102292924" duration="113000" />
+      <workItem from="1701102470288" duration="277000" />
+      <workItem from="1701102794829" duration="8000" />
+      <workItem from="1701102837837" duration="8000" />
     </task>
     <servers />
   </component>
