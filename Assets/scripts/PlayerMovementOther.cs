@@ -12,9 +12,9 @@ public class PlayerMovementOther : MonoBehaviour
 
     private bool isWallJumping;
     private float wallJumpingDirection;
-    private float wallJumpingTime = 0.1f;
+    private float wallJumpingTime = 0.3f;
     private float wallJumpingCounter;
-    private float wallJumpingDuration = 0.1f;
+    private float wallJumpingDuration = 0.3f;
     private Vector2 wallJumpingPower = new Vector2(4.5f, 8f);
 
     [SerializeField] private Rigidbody2D rb;
