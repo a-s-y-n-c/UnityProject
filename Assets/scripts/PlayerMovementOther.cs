@@ -12,9 +12,9 @@ public class PlayerMovementOther : MonoBehaviour
 
     private bool isWallJumping;
     private float wallJumpingDirection;
-    private float wallJumpingTime = 0.2f;
+    private float wallJumpingTime = 0.1f;
     private float wallJumpingCounter;
-    private float wallJumpingDuration = 0.5f;
+    private float wallJumpingDuration = 0.1f;
     private Vector2 wallJumpingPower = new Vector2(4.5f, 8f);
 
     [SerializeField] private Rigidbody2D rb;
@@ -22,6 +22,7 @@ public class PlayerMovementOther : MonoBehaviour
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private Transform wallCheck;
     [SerializeField] private LayerMask wallLayer;
+    [SerializeField] private float airForce;
 
     private void Update()
     {
@@ -46,11 +47,21 @@ public class PlayerMovementOther : MonoBehaviour
         }
     }
 
-    private void FixedUpdate()
-    {
-        if (!isWallJumping)
+    /*
+     * if (!isWallJumping)
         {
             rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+        }
+     */
+    private void FixedUpdate()
+    {
+        if (IsGrounded())
+        {
+            rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+        }
+        else if (!isWallJumping)
+        {
+            rb.AddForce(horizontal * airForce * Vector2.right);
         }
     }
 
