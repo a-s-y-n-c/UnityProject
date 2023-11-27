@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b46ef54e-c65a-4821-b20d-7a53548a7ac1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/whoosh2_Sound.mp3.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/scripts/PlayerMovementOther.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/PlayerMovementOther.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,6 +116,9 @@
       <workItem from="1701102470288" duration="277000" />
       <workItem from="1701102794829" duration="8000" />
       <workItem from="1701102837837" duration="8000" />
+      <workItem from="1701103474277" duration="375000" />
+      <workItem from="1701103942920" duration="14000" />
+      <workItem from="1701103978381" duration="42000" />
     </task>
     <servers />
   </component>
