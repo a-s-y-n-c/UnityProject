@@ -3,7 +3,7 @@ using UnityEngine;
 public class PlayerMovementOther : MonoBehaviour
 {
     private float horizontal;
-    private float speed = 4f;
+    private float speed = 6f;
     private float jumpingPower = 8f;
     private bool isFacingRight = true;
 
@@ -57,7 +57,7 @@ public class PlayerMovementOther : MonoBehaviour
     {
         if (IsGrounded())
         {
-            rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+            rb.AddForce(horizontal * speed * Vector2.right);
         }
         else if (!isWallJumping)
         {
