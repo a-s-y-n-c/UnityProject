@@ -552,6 +552,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 664811811456553405, guid: 4facd833f27bd4a4796d84cde9413203, type: 3}
+      propertyPath: airForce
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 664811811456553405, guid: 4facd833f27bd4a4796d84cde9413203, type: 3}
       propertyPath: wallLayer.m_Bits
       value: 72
       objectReference: {fileID: 0}
