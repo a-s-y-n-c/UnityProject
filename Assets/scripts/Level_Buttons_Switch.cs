@@ -13,12 +13,14 @@ public class Level_Buttons_Switch : MonoBehaviour
     
     // Start is called before the first frame update
     void Start()
-        {
+    {
+        levelpassed = PlayerPrefs.GetInt("Levelpassed");
+        level1_Button.interactable = true;
+        level2_Button.interactable = false;
+        level3_Button.interactable = false;
 
-     
-    
-    
-        }
+
+    }
 
 
 // Update is called once per frame
