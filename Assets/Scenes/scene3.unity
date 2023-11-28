@@ -155,7 +155,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tagName: New Level
-  currentScene: scene3
+  currentScene: scene6
 --- !u!60 &49273283
 PolygonCollider2D:
   m_ObjectHideFlags: 0
