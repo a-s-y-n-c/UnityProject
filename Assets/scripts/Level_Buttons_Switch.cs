@@ -19,10 +19,48 @@ public class Level_Buttons_Switch : MonoBehaviour
         level2_Button.interactable = false;
         level3_Button.interactable = false;
 
+        switch (levelpassed)
+        {
+            case 1:
+                level1_Button.interactable = true;
+                break;
+            
+            case 2:
+                level2_Button.interactable = true;
+                break;
+            
+            case 3:
+                level3_Button.interactable = true;
+                break;
+                
+            
+            
+            
+        }
+        
+        
 
     }
 
+    public void levelbeingloaded(int level)
+    {
+        SceneManager.LoadScene(level);
 
+    }
+
+    public void resetallbuttons()
+    {
+        level1_Button.interactable = false;
+        level2_Button.interactable = false;
+        level3_Button.interactable = false;
+        PlayerPrefs.DeleteAll();
+
+    }
+    
+    
+    
+    
+    
 // Update is called once per frame
     void Update()
     {

@@ -57,11 +57,17 @@ public class PlayerMovementOther : MonoBehaviour
     {
         if (IsGrounded())
         {
-            rb.AddForce(horizontal * speed * Vector2.right);
+            if ((rb.velocity.x < speed && horizontal > 0) || (rb.velocity.x > -speed && horizontal < 0))
+            {
+                rb.AddForce(horizontal * speed * Vector2.right);
+            }
         }
         else if (!isWallJumping)
         {
-            rb.AddForce(horizontal * airForce * Vector2.right);
+            if ((rb.velocity.x < airForce && horizontal > 0) || (rb.velocity.x > -airForce && horizontal < 0))
+            {
+                rb.AddForce(horizontal * airForce * Vector2.right);
+            }
         }
     }
 
