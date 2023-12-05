@@ -78,7 +78,7 @@ GameObject:
   - component: {fileID: 3449011848716846669}
   m_Layer: 0
   m_Name: Player1
-  m_TagString: New Level
+  m_TagString: Death
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
