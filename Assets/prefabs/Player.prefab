@@ -75,6 +75,7 @@ GameObject:
   - component: {fileID: 8942180842237860490}
   - component: {fileID: 664811811456553405}
   - component: {fileID: 5465562953013494422}
+  - component: {fileID: -2315973155886003550}
   m_Layer: 0
   m_Name: Player
   m_TagString: New Level
@@ -220,3 +221,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.81, y: 0.815}
   m_EdgeRadius: 0
+--- !u!114 &-2315973155886003550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8942180842237860596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0041a44ae3d7e943aeeb6509ef3f1c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tagName: Death
+  currentScene: scene#
