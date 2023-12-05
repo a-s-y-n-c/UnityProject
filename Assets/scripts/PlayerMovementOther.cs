@@ -9,7 +9,6 @@ public class PlayerMovementOther : MonoBehaviour
 
     private bool isWallSliding;
     private float wallSlidingSpeed = 2f;
-    private float horizontalMove;
 
     private bool isWallJumping;
     private float wallJumpingDirection;
@@ -24,13 +23,10 @@ public class PlayerMovementOther : MonoBehaviour
     [SerializeField] private Transform wallCheck;
     [SerializeField] private LayerMask wallLayer;
     [SerializeField] private float airForce;
-    public Animator animator;
 
     private void Update()
     {
         horizontal = Input.GetAxisRaw("Horizontal");
-        horizontalMove = Input.GetAxisRaw("Horizontal") * speed;
-        animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
 
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
