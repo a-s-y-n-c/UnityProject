@@ -721,6 +721,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Screen Opening Animation
       objectReference: {fileID: 0}
+    - target: {fileID: 4203048001671956898, guid: 4dde65463114d4448a1f0a9e31d1c732, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7925960817372269257, guid: 4dde65463114d4448a1f0a9e31d1c732, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1139,6 +1143,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5751026736863811614, guid: 9f71b82c4183bd84dbf64e9f388c8716, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8578305282793439139, guid: 9f71b82c4183bd84dbf64e9f388c8716, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
