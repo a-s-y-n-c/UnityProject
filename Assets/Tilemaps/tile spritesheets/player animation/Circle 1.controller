@@ -84,7 +84,7 @@ AnimatorStateMachine:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: New Layer
+  m_Name: animator
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 8889188359089792340}
@@ -119,16 +119,16 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: WallTouch
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
-    m_Name: New Layer
+    m_Name: animator
     m_StateMachine: {fileID: -106207061138015308}
     m_Mask: {fileID: 0}
     m_Motions: []
@@ -184,8 +184,8 @@ AnimatorStateTransition:
   m_IsExit: 0
   serializedVersion: 3
   m_TransitionDuration: 0
-  m_TransitionOffset: 0
-  m_ExitTime: 0.8148148
+  m_TransitionOffset: 1.2870681
+  m_ExitTime: 0.81481487
   m_HasExitTime: 0
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
