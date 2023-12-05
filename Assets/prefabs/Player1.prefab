@@ -76,6 +76,7 @@ GameObject:
   - component: {fileID: 664811811456553405}
   - component: {fileID: 5465562953013494422}
   - component: {fileID: 3449011848716846669}
+  - component: {fileID: -7670484928176068098}
   m_Layer: 0
   m_Name: Player1
   m_TagString: Death
@@ -243,3 +244,17 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-7670484928176068098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8942180842237860596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0041a44ae3d7e943aeeb6509ef3f1c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tagName: New Level
+  currentScene: scene
