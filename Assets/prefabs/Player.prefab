@@ -76,10 +76,13 @@ GameObject:
   - component: {fileID: 664811811456553405}
   - component: {fileID: 5465562953013494422}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: -2315973155886003550}
 =======
   - component: {fileID: 3449011848716846669}
 >>>>>>> eaa9e9db3b5319b90bd2950dd873c7b30a6908fa
+=======
+>>>>>>> parent of d64e66f (Merge branch 'main' of https://github.com/a-s-y-n-c/UnityProject)
   m_Layer: 0
   m_Name: Player
   m_TagString: New Level
@@ -227,6 +230,7 @@ BoxCollider2D:
   m_Size: {x: 0.81, y: 0.815}
   m_EdgeRadius: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &-2315973155886003550
 MonoBehaviour:
 =======
@@ -261,3 +265,5 @@ Animator:
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
 >>>>>>> eaa9e9db3b5319b90bd2950dd873c7b30a6908fa
+=======
+>>>>>>> parent of d64e66f (Merge branch 'main' of https://github.com/a-s-y-n-c/UnityProject)
