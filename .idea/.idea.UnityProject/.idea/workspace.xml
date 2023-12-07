@@ -6,11 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b46ef54e-c65a-4821-b20d-7a53548a7ac1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/PlayerMovementOther.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/PlayerMovementOther.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/SliderMoveHandler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/SliderMoveHandler.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/SliderScript.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/SliderScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/player animation/Circle 1.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/player animation/Circle 1.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/scene2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/scene2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefabs/Player1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefabs/Player1.prefab" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +37,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;new-fixed&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -142,6 +140,9 @@
       <workItem from="1701365358027" duration="62000" />
       <workItem from="1701365458577" duration="342000" />
       <workItem from="1701366368153" duration="210000" />
+      <workItem from="1701966693500" duration="10000" />
+      <workItem from="1701966709378" duration="9000" />
+      <workItem from="1701967355932" duration="10000" />
     </task>
     <servers />
   </component>

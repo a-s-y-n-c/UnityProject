@@ -1728,8 +1728,12 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 664811811456553405, guid: 4facd833f27bd4a4796d84cde9413203, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1273397043}
+    - target: {fileID: 664811811456553405, guid: 4facd833f27bd4a4796d84cde9413203, type: 3}
       propertyPath: wallLayer.m_Bits
-      value: 72
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 664811811456553405, guid: 4facd833f27bd4a4796d84cde9413203, type: 3}
       propertyPath: groundLayer.m_Bits
@@ -1823,12 +1827,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8942180842237860596, guid: 4facd833f27bd4a4796d84cde9413203, type: 3}
+      propertyPath: m_TagString
+      value: Death
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8942180842237860491, guid: 4facd833f27bd4a4796d84cde9413203, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4facd833f27bd4a4796d84cde9413203, type: 3}
 --- !u!4 &1273397042 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8942180842237860495, guid: 4facd833f27bd4a4796d84cde9413203, type: 3}
+  m_PrefabInstance: {fileID: 1273397041}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1273397043 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3449011848716846669, guid: 4facd833f27bd4a4796d84cde9413203, type: 3}
   m_PrefabInstance: {fileID: 1273397041}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1345987038
