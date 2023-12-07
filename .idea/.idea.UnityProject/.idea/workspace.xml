@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b46ef54e-c65a-4821-b20d-7a53548a7ac1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/beginnerScene.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/beginnerScene.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/scene4.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/scene4.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/prefabs/Player1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefabs/Player1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/prefabs/die mfer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefabs/die mfer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/scene6.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/scene6.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/PlayerMovementOther.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/PlayerMovementOther.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +36,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Merging new-fixed",
+    "git-widget-placeholder": "new-fixed",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -146,6 +143,7 @@
       <workItem from="1701966709378" duration="9000" />
       <workItem from="1701967355932" duration="10000" />
       <workItem from="1701967883238" duration="20000" />
+      <workItem from="1701968129364" duration="791000" />
     </task>
     <servers />
   </component>
