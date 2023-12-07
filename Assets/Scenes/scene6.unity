@@ -667,16 +667,16 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 664811811456553405, guid: 4facd833f27bd4a4796d84cde9413203, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 231259825}
+    - target: {fileID: 664811811456553405, guid: 4facd833f27bd4a4796d84cde9413203, type: 3}
       propertyPath: wallLayer.m_Bits
       value: 72
       objectReference: {fileID: 0}
     - target: {fileID: 664811811456553405, guid: 4facd833f27bd4a4796d84cde9413203, type: 3}
       propertyPath: groundLayer.m_Bits
       value: 128
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_Material
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8942180842237860494, guid: 4facd833f27bd4a4796d84cde9413203, type: 3}
       propertyPath: currentScene
@@ -733,6 +733,11 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 8942180842237860491, guid: 4facd833f27bd4a4796d84cde9413203, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4facd833f27bd4a4796d84cde9413203, type: 3}
+--- !u!95 &231259825 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3449011848716846669, guid: 4facd833f27bd4a4796d84cde9413203, type: 3}
+  m_PrefabInstance: {fileID: 231259824}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &446932336
 GameObject:
   m_ObjectHideFlags: 0
