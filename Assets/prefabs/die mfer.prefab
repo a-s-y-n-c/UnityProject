@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tagName: Death
-  currentScene: scene
+  currentScene: scene1
 --- !u!60 &4798564095612247870
 PolygonCollider2D:
   m_ObjectHideFlags: 0

@@ -24,13 +24,18 @@ public class PlayerMovementOther : MonoBehaviour
     [SerializeField] private Transform wallCheck;
     [SerializeField] private LayerMask wallLayer;
     [SerializeField] private float airForce;
-    public Animator animator;
+    private Animator _animator;
+
+    private void Start()
+    {
+        _animator = GetComponent<Animator>();
+    }
 
     private void Update()
     {
         horizontal = Input.GetAxisRaw("Horizontal");
         horizontalMove = Input.GetAxisRaw("Horizontal") * speed;
-        animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
+        _animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
 
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
@@ -82,6 +87,7 @@ public class PlayerMovementOther : MonoBehaviour
 
     private bool IsWalled()
     {
+        
         return Physics2D.OverlapCircle(wallCheck.position, 0.2f, wallLayer);
     }
 
@@ -91,10 +97,12 @@ public class PlayerMovementOther : MonoBehaviour
         {
             isWallSliding = true;
             rb.velocity = new Vector2(rb.velocity.x, Mathf.Clamp(rb.velocity.y, -wallSlidingSpeed, float.MaxValue));
+            _animator.SetBool("WallTouch", true);
         }
         else
         {
             isWallSliding = false;
+            _animator.SetBool("WallTouch", false);
         }
     }
 
