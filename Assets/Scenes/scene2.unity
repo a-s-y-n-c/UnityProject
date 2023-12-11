@@ -2119,7 +2119,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -7670484928176068098, guid: 4facd833f27bd4a4796d84cde9413203, type: 3}
       propertyPath: currentScene
-      value: scene3
+      value: scene4
       objectReference: {fileID: 0}
     - target: {fileID: 664811811456553405, guid: 4facd833f27bd4a4796d84cde9413203, type: 3}
       propertyPath: airForce
