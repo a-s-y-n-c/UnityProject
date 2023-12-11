@@ -68,7 +68,7 @@ public class PlayerMovementOther : MonoBehaviour
         {
             if ((rb.velocity.x < speed && horizontal > 0) || (rb.velocity.x > -speed && horizontal < 0))
             {
-                rb.AddForce(horizontal * speed * Vector2.right);
+                rb.AddForce(horizontal * (speed + 3) * Vector2.right);
             }
         }
         else if (!isWallJumping)
