@@ -21,7 +21,7 @@
             {
                 "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
                 "key": "buildOutputDirList",
-                "value": "{\"m_Value\":\"C:/Users/100030310/Desktop/project;;;;;;;;;\"}"
+                "value": "{\"m_Value\":\"C:/Users/100030310/Desktop/project/Build/Build/Build;C:/Users/100030310/Desktop/project/Build/Build;C:/Users/100030310/Desktop/project/Build;C:/Users/100030310/Desktop/project;;;;;;\"}"
             }
         ]
     }
