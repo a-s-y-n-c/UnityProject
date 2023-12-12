@@ -1,9 +1,11 @@
+using System;
 using UnityEngine;
 
 public class PlayerMovementOther : MonoBehaviour
 {
     private float horizontal;
     [SerializeField] private float speed = 12.5f;
+    [SerializeField] private float maxSpeed = 12.5f;
     [SerializeField] private float jumpingPower = 8f;
     private bool isFacingRight = true;
 
@@ -77,6 +79,14 @@ public class PlayerMovementOther : MonoBehaviour
             {
                 rb.AddForce(horizontal * airForce * Vector2.right);
             }
+        }
+    }
+
+    private void LateUpdate()
+    {
+        if (Mathf.Abs(rb.velocity.x) > maxSpeed)
+        {
+            rb.velocity = new Vector2(Mathf.Sign(rb.velocity.x)*maxSpeed,rb.velocity.y);
         }
     }
 
