@@ -18,7 +18,7 @@ public class PlayerMovementOther : MonoBehaviour
     private float wallJumpingTime = 0.3f;
     private float wallJumpingCounter;
     private float wallJumpingDuration = 0.1f;
-    [SerializeField] private Vector2 wallJumpingPower = new Vector2(4.5f, 8f);
+    [SerializeField] private Vector2 wallJumpingPower = new Vector2(4.75f, 8f);
 
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
