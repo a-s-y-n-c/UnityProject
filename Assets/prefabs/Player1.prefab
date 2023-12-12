@@ -187,6 +187,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b56983fa2f12be640a876a847a8697eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 12.5
+  maxSpeed: 5.5
+  jumpingPower: 8
+  wallJumpingPower: {x: 4.5, y: 8}
   rb: {fileID: 8942180842237860490}
   groundCheck: {fileID: 3237094024142507899}
   groundLayer:

@@ -2885,6 +2885,10 @@ PrefabInstance:
       propertyPath: groundLayer.m_Bits
       value: 128
       objectReference: {fileID: 0}
+    - target: {fileID: 664811811456553405, guid: 4facd833f27bd4a4796d84cde9413203, type: 3}
+      propertyPath: wallJumpingPower.x
+      value: 4.75
+      objectReference: {fileID: 0}
     - target: {fileID: 3237094024142507899, guid: 4facd833f27bd4a4796d84cde9413203, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.03

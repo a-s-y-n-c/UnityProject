@@ -4,8 +4,8 @@ using UnityEngine;
 public class PlayerMovementOther : MonoBehaviour
 {
     private float horizontal;
-    [SerializeField] private float speed = 12.5f;
-    [SerializeField] private float maxSpeed = 12.5f;
+    [SerializeField] private float speed = 10f;
+    [SerializeField] private float maxSpeed = 10f;
     [SerializeField] private float jumpingPower = 8f;
     private bool isFacingRight = true;
 
