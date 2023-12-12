@@ -3,8 +3,8 @@ using UnityEngine;
 public class PlayerMovementOther : MonoBehaviour
 {
     private float horizontal;
-    private float speed = 12.5f;
-    private float jumpingPower = 8f;
+    [SerializeField] private float speed = 12.5f;
+    [SerializeField] private float jumpingPower = 8f;
     private bool isFacingRight = true;
 
     private bool isWallSliding;
@@ -16,7 +16,7 @@ public class PlayerMovementOther : MonoBehaviour
     private float wallJumpingTime = 0.3f;
     private float wallJumpingCounter;
     private float wallJumpingDuration = 0.1f;
-    private Vector2 wallJumpingPower = new Vector2(4.5f, 8f);
+    [SerializeField] private Vector2 wallJumpingPower = new Vector2(4.5f, 8f);
 
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
@@ -24,13 +24,18 @@ public class PlayerMovementOther : MonoBehaviour
     [SerializeField] private Transform wallCheck;
     [SerializeField] private LayerMask wallLayer;
     [SerializeField] private float airForce;
-    public Animator animator;
+    private Animator _animator;
+
+    private void Start()
+    {
+        _animator = GetComponent<Animator>();
+    }
 
     private void Update()
     {
         horizontal = Input.GetAxisRaw("Horizontal");
         horizontalMove = Input.GetAxisRaw("Horizontal") * speed;
-        animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
+        _animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
 
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
@@ -63,7 +68,7 @@ public class PlayerMovementOther : MonoBehaviour
         {
             if ((rb.velocity.x < speed && horizontal > 0) || (rb.velocity.x > -speed && horizontal < 0))
             {
-                rb.AddForce(horizontal * speed * Vector2.right);
+                rb.AddForce(horizontal * (speed + 3) * Vector2.right);
             }
         }
         else if (!isWallJumping)
@@ -82,6 +87,7 @@ public class PlayerMovementOther : MonoBehaviour
 
     private bool IsWalled()
     {
+        
         return Physics2D.OverlapCircle(wallCheck.position, 0.2f, wallLayer);
     }
 
@@ -91,10 +97,12 @@ public class PlayerMovementOther : MonoBehaviour
         {
             isWallSliding = true;
             rb.velocity = new Vector2(rb.velocity.x, Mathf.Clamp(rb.velocity.y, -wallSlidingSpeed, float.MaxValue));
+            _animator.SetBool("WallTouch", true);
         }
         else
         {
             isWallSliding = false;
+            _animator.SetBool("WallTouch", false);
         }
     }
 
