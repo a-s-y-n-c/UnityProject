@@ -92,7 +92,7 @@ public class PlayerMovementOther : MonoBehaviour
 
     private bool IsGrounded()
     {
-        return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
+        return Physics2D.OverlapCircle(groundCheck.position, 0.65f, groundLayer);
     }
 
     private bool IsWalled()
