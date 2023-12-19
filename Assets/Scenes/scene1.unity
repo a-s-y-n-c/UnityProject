@@ -2093,6 +2093,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: die mfer
       objectReference: {fileID: 0}
+    - target: {fileID: 2838797069703296677, guid: aa5a362892b0cf9419c251426e21145c, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 4363744833241089996, guid: aa5a362892b0cf9419c251426e21145c, type: 3}
       propertyPath: currentScene
       value: scene1
