@@ -44,7 +44,7 @@ public class Level_Buttons_Switch : MonoBehaviour
 
     public void levelbeingloaded(int level)
     {
-        SceneManager.LoadScene(level);
+        SceneManager.LoadScene("scene" + level);
 
     }
 
