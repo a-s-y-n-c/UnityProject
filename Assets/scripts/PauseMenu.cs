@@ -29,4 +29,9 @@ public class PauseMenu : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         Time.timeScale = 1;
     }
+    public void LevelSelect()
+    {
+        SceneManager.LoadScene("Level_selector");
+        Time.timeScale = 1;
+    }
 }
