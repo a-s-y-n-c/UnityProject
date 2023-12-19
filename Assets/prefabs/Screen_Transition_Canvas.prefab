@@ -60,7 +60,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!114 &7860627882134151870
 MonoBehaviour:
@@ -197,6 +197,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8578305282793439139, guid: 9f71b82c4183bd84dbf64e9f388c8716, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f71b82c4183bd84dbf64e9f388c8716, type: 3}
 --- !u!224 &7097996230290412929 stripped
@@ -214,6 +218,10 @@ PrefabInstance:
     - target: {fileID: 3122769987840410522, guid: 4dde65463114d4448a1f0a9e31d1c732, type: 3}
       propertyPath: m_Name
       value: Screen Opening Animation
+      objectReference: {fileID: 0}
+    - target: {fileID: 4203048001671956898, guid: 4dde65463114d4448a1f0a9e31d1c732, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7925960817372269257, guid: 4dde65463114d4448a1f0a9e31d1c732, type: 3}
       propertyPath: m_Pivot.x
