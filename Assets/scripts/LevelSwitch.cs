@@ -19,6 +19,7 @@ public class LevelSwitch : MonoBehaviour
 
     IEnumerator LoadLevel()
     {
+        SceneManager.LoadScene(currentScene);
         Animator closingAnim = GameObject.Find("Screen Closing Animation").GetComponent<Animator>();
         if (closingAnim == null)
         {
@@ -26,7 +27,6 @@ public class LevelSwitch : MonoBehaviour
         }
         closingAnim.SetTrigger("Screen_Closed_Trigger");
         yield return new WaitForSeconds(2f);
-        SceneManager.LoadScene(currentScene);
     }
 
 }
