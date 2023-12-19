@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2707086547069595817
+--- !u!1 &7860627882134151864
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,10 +8,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2707086547069595821}
-  - component: {fileID: 2707086547069595822}
-  - component: {fileID: 2707086547069595823}
-  - component: {fileID: 2707086547069595816}
+  - component: {fileID: 7860627882134151868}
+  - component: {fileID: 7860627882134151871}
+  - component: {fileID: 7860627882134151870}
+  - component: {fileID: 7860627882134151865}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -19,20 +19,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &2707086547069595821
+--- !u!224 &7860627882134151868
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2707086547069595817}
+  m_GameObject: {fileID: 7860627882134151864}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 3028154256234694544}
-  - {fileID: 1375637504568215131}
+  - {fileID: 7097996230290412929}
+  - {fileID: 6597827003264472138}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -41,13 +41,13 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!223 &2707086547069595822
+--- !u!223 &7860627882134151871
 Canvas:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2707086547069595817}
+  m_GameObject: {fileID: 7860627882134151864}
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 0
@@ -62,13 +62,13 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!114 &2707086547069595823
+--- !u!114 &7860627882134151870
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2707086547069595817}
+  m_GameObject: {fileID: 7860627882134151864}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
@@ -85,13 +85,13 @@ MonoBehaviour:
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
   m_PresetInfoIsWorld: 0
---- !u!114 &2707086547069595816
+--- !u!114 &7860627882134151865
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2707086547069595817}
+  m_GameObject: {fileID: 7860627882134151864}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
@@ -102,20 +102,16 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!1001 &7334650858551795598
+--- !u!1001 &3264799315965447583
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 2707086547069595821}
+    m_TransformParent: {fileID: 7860627882134151868}
     m_Modifications:
     - target: {fileID: 1417490202407810176, guid: 9f71b82c4183bd84dbf64e9f388c8716, type: 3}
       propertyPath: m_Name
-      value: Screen Closing Animation (need to tell it which scene is next)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4636573220537846682, guid: 9f71b82c4183bd84dbf64e9f388c8716, type: 3}
-      propertyPath: nextScene
-      value: temp_scene2
+      value: Screen Closing Animation
       objectReference: {fileID: 0}
     - target: {fileID: 5751026736863811614, guid: 9f71b82c4183bd84dbf64e9f388c8716, type: 3}
       propertyPath: m_Pivot.x
@@ -203,21 +199,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f71b82c4183bd84dbf64e9f388c8716, type: 3}
---- !u!224 &3028154256234694544 stripped
+--- !u!224 &7097996230290412929 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5751026736863811614, guid: 9f71b82c4183bd84dbf64e9f388c8716, type: 3}
-  m_PrefabInstance: {fileID: 7334650858551795598}
+  m_PrefabInstance: {fileID: 3264799315965447583}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &9145003637726891154
+--- !u!1001 &3922243768973827715
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 2707086547069595821}
+    m_TransformParent: {fileID: 7860627882134151868}
     m_Modifications:
     - target: {fileID: 3122769987840410522, guid: 4dde65463114d4448a1f0a9e31d1c732, type: 3}
       propertyPath: m_Name
-      value: Screen Opening Animation (needs no code)
+      value: Screen Opening Animation
       objectReference: {fileID: 0}
     - target: {fileID: 7925960817372269257, guid: 4dde65463114d4448a1f0a9e31d1c732, type: 3}
       propertyPath: m_Pivot.x
@@ -305,8 +301,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4dde65463114d4448a1f0a9e31d1c732, type: 3}
---- !u!224 &1375637504568215131 stripped
+--- !u!224 &6597827003264472138 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7925960817372269257, guid: 4dde65463114d4448a1f0a9e31d1c732, type: 3}
-  m_PrefabInstance: {fileID: 9145003637726891154}
+  m_PrefabInstance: {fileID: 3922243768973827715}
   m_PrefabAsset: {fileID: 0}
