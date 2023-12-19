@@ -5,12 +5,14 @@ using UnityEngine.SceneManagement;
 public class Screen_transtion : MonoBehaviour
 {
     public string nextScene;
-    private Animator anim;
+    public Animator close_animator;
+    public Animator open_animator;
     
     // Start is called before the first frame update
     void Start()
     {
-        anim = GetComponent<Animator>();
+        close_animator = GetComponent<Animator>();
+        open_animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -18,7 +20,7 @@ public class Screen_transtion : MonoBehaviour
     {
         if (Input.GetButtonDown("Jump"))
         {
-            anim.SetTrigger("changeScene");
+            open_animator.SetTrigger("Screen_Open_Trigger");
         }
     }
 
