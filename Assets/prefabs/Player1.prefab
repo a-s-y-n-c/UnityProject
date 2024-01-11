@@ -202,6 +202,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 72
   airForce: 5.25
+  floorSandParticles: {fileID: 3118466970928723377}
 --- !u!61 &5465562953013494422
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -333,14 +334,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: Particle System
       objectReference: {fileID: 0}
-    - target: {fileID: 5907831420939595383, guid: dcf85069f41a650468e426e8723fc202, type: 3}
-      propertyPath: m_SortingOrder
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcf85069f41a650468e426e8723fc202, type: 3}
 --- !u!4 &3118466970928723376 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5907831420939595381, guid: dcf85069f41a650468e426e8723fc202, type: 3}
+  m_PrefabInstance: {fileID: 8843891336764480453}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &3118466970928723377 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 5907831420939595380, guid: dcf85069f41a650468e426e8723fc202, type: 3}
   m_PrefabInstance: {fileID: 8843891336764480453}
   m_PrefabAsset: {fileID: 0}

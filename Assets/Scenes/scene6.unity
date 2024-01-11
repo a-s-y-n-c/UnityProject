@@ -293,6 +293,14 @@ PrefabInstance:
       propertyPath: groundLayer.m_Bits
       value: 128
       objectReference: {fileID: 0}
+    - target: {fileID: 3118466970928723377, guid: 4facd833f27bd4a4796d84cde9413203, type: 3}
+      propertyPath: playOnAwake
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3118466970928723377, guid: 4facd833f27bd4a4796d84cde9413203, type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 8942180842237860494, guid: 4facd833f27bd4a4796d84cde9413203, type: 3}
       propertyPath: currentScene
       value: scene1

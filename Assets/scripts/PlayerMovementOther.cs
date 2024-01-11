@@ -27,7 +27,8 @@ public class PlayerMovementOther : MonoBehaviour
     [SerializeField] private LayerMask wallLayer;
     [SerializeField] private float airForce;
     private Animator _animator;
-
+    [SerializeField] private ParticleSystem floorSandParticles;
+    
     private void Start()
     {
         _animator = GetComponent<Animator>();
@@ -163,5 +164,15 @@ public class PlayerMovementOther : MonoBehaviour
             localScale.x *= -1f;
             transform.localScale = localScale;
         }
+    }
+
+    public void StartFloorSandParticles()
+    {
+        floorSandParticles.Play();
+    }
+    
+    public void EndFloorSandParticles()
+    {
+        floorSandParticles.Stop();
     }
 }
