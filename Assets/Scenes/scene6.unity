@@ -266,6 +266,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!198 &154374611 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 3118466970928723377, guid: 4facd833f27bd4a4796d84cde9413203, type: 3}
+  m_PrefabInstance: {fileID: 231259824}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &231259824
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -290,12 +295,16 @@ PrefabInstance:
       value: 72
       objectReference: {fileID: 0}
     - target: {fileID: 664811811456553405, guid: 4facd833f27bd4a4796d84cde9413203, type: 3}
+      propertyPath: floorSandParticles
+      value: 
+      objectReference: {fileID: 154374611}
+    - target: {fileID: 664811811456553405, guid: 4facd833f27bd4a4796d84cde9413203, type: 3}
       propertyPath: groundLayer.m_Bits
       value: 128
       objectReference: {fileID: 0}
     - target: {fileID: 3118466970928723377, guid: 4facd833f27bd4a4796d84cde9413203, type: 3}
       propertyPath: playOnAwake
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3118466970928723377, guid: 4facd833f27bd4a4796d84cde9413203, type: 3}
       propertyPath: InitialModule.startLifetime.scalar
