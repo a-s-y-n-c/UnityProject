@@ -1856,6 +1856,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pause Thing
       objectReference: {fileID: 0}
+    - target: {fileID: 2376074304977247085, guid: 46a6a3893c571524a8ef276ce19a0175, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46a6a3893c571524a8ef276ce19a0175, type: 3}
 --- !u!1 &979773699
@@ -9455,8 +9459,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2004806134}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.71, y: 3.73, z: 0}
-  m_LocalScale: {x: 1, y: 9.962688, z: 1}
+  m_LocalPosition: {x: 11.71, y: 8.4601, z: 0}
+  m_LocalScale: {x: 1, y: 19.423258, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -9680,6 +9684,10 @@ PrefabInstance:
     - target: {fileID: 7860627882134151864, guid: 7282d02e0df871f45ba0eaeb3b743244, type: 3}
       propertyPath: m_Name
       value: Screen_Transition_Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 7860627882134151864, guid: 7282d02e0df871f45ba0eaeb3b743244, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7860627882134151868, guid: 7282d02e0df871f45ba0eaeb3b743244, type: 3}
       propertyPath: m_Pivot.x
